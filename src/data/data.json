@@ -52,7 +52,7 @@
    },
    {
     "type": "note",
-    "text": "Cómo funciona: en Google Sheets la columna Automática consulta el mercado cada vez que abres o recalculas el archivo (puede tener unos minutos de retraso). Para fijar una tasa tú, escríbela en la columna Manual; si la dejas en blanco, se usa la automática. Si la consulta falla (por ejemplo en Excel), se usa el último valor verificado: S/ 3.41 (SUNAT, 18/11/2026) y COP 3.415 (TRM, 20/11/2026). Todos los montos de las demás hojas se recalculan con la tasa en uso.",
+    "text": "",
     "red": false
    },
    {
