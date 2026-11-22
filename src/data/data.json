@@ -1,0 +1,2392 @@
+{
+ "Resumen": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "GUÍA DE TRÁMITES: PERÚ → COLOMBIA PARA EL PASAPORTE VENEZOLANO"
+   },
+   {
+    "type": "subtitle",
+    "text": "Resumen ejecutivo. Elaborado el 22/11/2026. Montos en soles, pesos colombianos y dólares."
+   },
+   {
+    "type": "section",
+    "text": "TIPOS DE CAMBIO (se actualizan solos al abrir el archivo en Google Sheets)"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Par de monedas",
+     "Automática (internet)",
+     "Manual (editable)",
+     "Último valor verificado",
+     "TASA EN USO",
+     "Estado"
+    ],
+    "rows": [
+     [
+      "S/ por US$ 1",
+      null,
+      null,
+      3.41,
+      3.41,
+      "Último valor verificado (22/11/2026)"
+     ],
+     [
+      "COP por US$ 1",
+      null,
+      null,
+      3415,
+      3415,
+      "Último valor verificado (22/11/2026)"
+     ],
+     [
+      "COP por S/ 1 (calculada)",
+      null,
+      null,
+      null,
+      1001.47,
+      "Se calcula con las dos tasas anteriores."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Cómo funciona: en Google Sheets la columna Automática consulta el mercado cada vez que abres o recalculas el archivo (puede tener unos minutos de retraso). Para fijar una tasa tú, escríbela en la columna Manual; si la dejas en blanco, se usa la automática. Si la consulta falla (por ejemplo en Excel), se usa el último valor verificado: S/ 3.41 (SUNAT, 18/11/2026) y COP 3.415 (TRM, 20/11/2026). Todos los montos de las demás hojas se recalculan con la tasa en uso.",
+    "red": false
+   },
+   {
+    "type": "section",
+    "text": "INDICADORES CLAVE"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Indicador",
+     "Soles (S/)",
+     "Pesos col. (COP)",
+     "Dólares (US$)",
+     "Comentario",
+     ""
+    ],
+    "rows": [
+     [
+      "Servicios de agencia",
+      340,
+      340498.53,
+      99.71,
+      "Asesoría + paquete de trámites.",
+      null
+     ],
+     [
+      "Pasajes y gastos de viaje",
+      2707.53,
+      2711500,
+      794.0,
+      "Vuelo y buses. Ajusta los montos en Cotizacion.",
+      null
+     ],
+     [
+      "Pasaporte venezolano (adulto)",
+      1145.76,
+      1147440,
+      336,
+      "Pago en línea + arancel consular en efectivo.",
+      null
+     ],
+     [
+      "INVERSIÓN TOTAL ESTIMADA",
+      4193.29,
+      4199438.53,
+      1229.7,
+      "Total con todos los rubros",
+      null
+     ],
+     [
+      "Ahorro si haces los trámites de Perú por tu cuenta",
+      293.3,
+      293730.06,
+      86.01,
+      "Diferencia entre agencia y solo aranceles.",
+      null
+     ],
+     [
+      "Fecha de vuelo de ida",
+      "05/12/2026",
+      null,
+      null,
+      "Cambia la fecha en la hoja Cronograma.",
+      null
+     ],
+     [
+      "Fecha límite para ingresar el salvoconducto",
+      "15/11/2026",
+      null,
+      null,
+      "Recomendación de la agencia: 20 días antes del vuelo.",
+      null
+     ],
+     [
+      "Avance del checklist",
+      "0.0%",
+      null,
+      null,
+      "Actualiza los estados en la hoja Checklist.",
+      null
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "ÍNDICE DE HOJAS"
+   },
+   {
+    "type": "table",
+    "header": null,
+    "rows": [
+     [
+      "Ruta",
+      "Mapa de ruta con los 17 pasos, costos en tres monedas y tiempos.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Cotizacion",
+      "Desglose de costos y total estimado en S/, COP y US$.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Comparativa",
+      "Trámites por cuenta propia vs. con agencia.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Interpol",
+      "Ficha de Canje: requisitos, pasos y enlaces oficiales.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Salvoconducto",
+      "Salvoconducto de Migraciones: requisitos, pasos y enlaces.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Pasaporte_VE",
+      "Pasaporte venezolano en Colombia: cita, costos, requisitos y retiro.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Checklist",
+      "Lista de verificación con estados.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Cronograma",
+      "Fechas límite según tu fecha de vuelo.",
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Fuentes",
+      "Enlaces, fuentes y datos por verificar.",
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "ALERTAS IMPORTANTES ANTES DE PAGAR"
+   },
+   {
+    "type": "note",
+    "text": "• Fechas: con vuelo el 05/12/2026, los plazos de Interpol (1 a 3 semanas) y salvoconducto (20 días antes) no alcanzan. Revisa la hoja Cronograma.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Salvoconducto: según gob.pe es para extranjeros sin pasaporte y sin representación consular en Perú. Pregunta a la agencia cómo aplica a tu caso.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Interpol pide pasaporte original en su página oficial: confirma qué documento aceptan si el tuyo está vencido.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Bus de frontera: el carrito de Traveling Vip dice Cúcuta – San Antonio Terminal. Verifica que ese destino sirva para el trámite (tú indicaste San Cristóbal).",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Pasaporte venezolano: lleva el arancel consular en efectivo el día de la cita. Costos y portal pueden cambiar; no hay plazo de entrega confiable.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• El salvoconducto vence a los 30 días hábiles y no se renueva.",
+    "red": true
+   }
+  ]
+ },
+ "Ruta": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "MAPA DE RUTA: PASO A PASO COMPLETO"
+   },
+   {
+    "type": "subtitle",
+    "text": "De Lima a Colombia: orden recomendado de acciones, con dónde hacerlas, costo en tres monedas y tiempo."
+   },
+   {
+    "type": "table",
+    "header": [
+     "Etapa",
+     "Paso",
+     "Acción",
+     "Dónde / enlace",
+     "Costo (S/)",
+     "Costo (COP)",
+     "Costo (US$)",
+     "Tiempo",
+     "Depende de"
+    ],
+    "rows": [
+     [
+      "A. Preparación",
+      1,
+      "Pagar S/ 70 y enviar el comprobante para agendar la asesoría",
+      "Agencia (WhatsApp)",
+      70,
+      70102.64,
+      20.53,
+      "Antes del martes elegido",
+      "-"
+     ],
+     [
+      "A. Preparación",
+      2,
+      "Asesoría presencial en Los Olivos (martes); indica la hora deseada",
+      "Agencia, Los Olivos",
+      "-",
+      "-",
+      "-",
+      "1 sesión",
+      "1"
+     ],
+     [
+      "B. Pasajes",
+      3,
+      "Comprar vuelo Lima–Colombia, ida y vuelta",
+      "Aerolínea o comparador",
+      2387,
+      2390500,
+      700,
+      "Antes de iniciar trámites",
+      "2"
+     ],
+     [
+      "B. Pasajes",
+      4,
+      "Comprar bus Cartagena–Cúcuta (obligatorio para el trámite)",
+      "Copetran u otra empresa",
+      149.78,
+      150000,
+      43.92,
+      "Antes de iniciar trámites",
+      "2"
+     ],
+     [
+      "B. Pasajes",
+      5,
+      "Comprar bus Cúcuta–San Cristóbal/frontera (verificar destino: el carrito dice San Antonio Terminal)",
+      {
+       "text": "Traveling Vip",
+       "url": "https://travelingvip365.com"
+      },
+      170.75,
+      171000,
+      50.07,
+      "Antes de iniciar trámites",
+      "2"
+     ],
+     [
+      "C. Trámites en Perú",
+      6,
+      "Pagar arancel Interpol (código 08141)",
+      {
+       "text": "Págalo.pe / Banco de la Nación",
+       "url": "https://pagalo.pe"
+      },
+      31.5,
+      31546.19,
+      9.24,
+      "Hasta el viernes previo a la cita",
+      "3, 4, 5"
+     ],
+     [
+      "C. Trámites en Perú",
+      7,
+      "Pedir cita de Interpol (sistema en línea; sábados en Lima, según agencia)",
+      {
+       "text": "gob.pe: Ficha de Canje",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      },
+      "-",
+      "-",
+      "-",
+      "1 a 3 semanas de espera",
+      "6"
+     ],
+     [
+      "C. Trámites en Perú",
+      8,
+      "Ir a Interpol Monterrico y recibir la Ficha de Canje",
+      {
+       "text": "gob.pe: Ficha de Canje",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      },
+      "-",
+      "-",
+      "-",
+      "Aprox. 1 hora en la cita",
+      "7"
+     ],
+     [
+      "C. Trámites en Perú",
+      9,
+      "Pagar arancel del salvoconducto (código 07570)",
+      {
+       "text": "Págalo.pe / Banco de la Nación",
+       "url": "https://pagalo.pe"
+      },
+      15.2,
+      15222.29,
+      4.46,
+      "Mismo día de la solicitud",
+      "8"
+     ],
+     [
+      "C. Trámites en Perú",
+      10,
+      "Ingresar el salvoconducto en la Agencia Digital de Migraciones",
+      {
+       "text": "Agencia Digital Migraciones",
+       "url": "https://agenciavirtual.migraciones.gob.pe/agencia-virtual/mesa-partes"
+      },
+      "-",
+      "-",
+      "-",
+      "Al menos 20 días antes del vuelo",
+      "8, 9"
+     ],
+     [
+      "C. Trámites en Perú",
+      11,
+      "Esperar la aprobación de Migraciones y subsanar observaciones",
+      {
+       "text": "gob.pe: Salvoconducto",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      },
+      "-",
+      "-",
+      "-",
+      "Mínimo legal 7 días hábiles",
+      "10"
+     ],
+     [
+      "D. Viaje",
+      12,
+      "Volar Lima–Colombia con salvoconducto, boletos e impresiones",
+      "Aeropuerto",
+      "-",
+      "-",
+      "-",
+      "Según tu fecha",
+      "11"
+     ],
+     [
+      "D. Viaje",
+      13,
+      "Viajar en bus Cartagena–Cúcuta–frontera con los boletos ya comprados",
+      "Terminales de bus",
+      "-",
+      "-",
+      "-",
+      "Aprox. 18 h el primer tramo",
+      "12"
+     ],
+     [
+      "E. Pasaporte venezolano",
+      14,
+      "Crear cuenta y pedir cita en el Saime; elegir consulado",
+      {
+       "text": "Saime",
+       "url": "https://www.saime.gob.ve"
+      },
+      "-",
+      "-",
+      "-",
+      "Según disponibilidad",
+      "13"
+     ],
+     [
+      "E. Pasaporte venezolano",
+      15,
+      "Pagar en línea el pasaporte (adulto, con tarjeta) y guardar comprobante",
+      {
+       "text": "Saime",
+       "url": "https://www.saime.gob.ve"
+      },
+      736.56,
+      737640,
+      216,
+      "Al agendar",
+      "14"
+     ],
+     [
+      "E. Pasaporte venezolano",
+      16,
+      "Asistir al consulado con planilla, partida de nacimiento, cédula y comprobante, y pagar el arancel consular en efectivo",
+      {
+       "text": "Guía Infobae 2026",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      },
+      409.2,
+      409800,
+      120,
+      "Día y hora asignados",
+      "15"
+     ],
+     [
+      "E. Pasaporte venezolano",
+      17,
+      "Retirar el pasaporte en el consulado (confirmar plazo de entrega)",
+      "Consulado venezolano",
+      "-",
+      "-",
+      "-",
+      "Por verificar",
+      "16"
+     ]
+    ]
+   }
+  ]
+ },
+ "Cotizacion": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "COTIZACIÓN TOTAL DEL VIAJE Y TRÁMITES"
+   },
+   {
+    "type": "subtitle",
+    "text": "Cada monto se ingresa en su moneda original y se muestra en soles, pesos colombianos y dólares con la tasa de la hoja Resumen."
+   },
+   {
+    "type": "table",
+    "header": null,
+    "rows": [
+     [
+      "Tasa: S/ por US$ 1",
+      "Viene de la hoja Resumen (automática o manual)",
+      3.41,
+      null,
+      null,
+      null,
+      null,
+      null
+     ],
+     [
+      "Tasa: COP por US$ 1",
+      "Viene de la hoja Resumen (automática o manual)",
+      3415,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "1. SERVICIOS DE LA AGENCIA (Perú)"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Concepto",
+     "Detalle",
+     "Monto original",
+     "Moneda",
+     "Soles (S/)",
+     "Pesos col. (COP)",
+     "Dólares (US$)",
+     "Nota / fuente"
+    ],
+    "rows": [
+     [
+      "Asesoría inicial presencial",
+      "Cita en Los Olivos (martes)",
+      70,
+      "PEN",
+      70,
+      70102.64,
+      20.53,
+      "Precio informado por la agencia."
+     ],
+     [
+      "Interpol: arancel oficial",
+      "Ficha de Canje Internacional",
+      31.5,
+      "PEN",
+      31.5,
+      31546.19,
+      9.24,
+      "gob.pe, tributo 08141."
+     ],
+     [
+      "Interpol: honorarios de la agencia",
+      "Gestión de cita y carga de datos",
+      83.5,
+      "PEN",
+      83.5,
+      83622.43,
+      24.49,
+      "Cotización de S/ 115 menos el arancel de S/ 31.50."
+     ],
+     [
+      "Salvoconducto: arancel oficial",
+      "Migraciones Perú",
+      15.2,
+      "PEN",
+      15.2,
+      15222.29,
+      4.46,
+      "gob.pe, código 07570."
+     ],
+     [
+      "Salvoconducto: honorarios de la agencia",
+      "Armado y seguimiento del expediente",
+      139.8,
+      "PEN",
+      139.8,
+      140004.99,
+      41.0,
+      "Cotización de S/ 155 menos el arancel de S/ 15.20."
+     ],
+     [
+      "TOTAL AGENCIA",
+      null,
+      null,
+      null,
+      340,
+      340498.53,
+      99.71,
+      "Debe dar S/ 340.00, el total informado por la agencia."
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "2. PASAJES Y GASTOS DE VIAJE"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Concepto",
+     "Detalle",
+     "Monto original",
+     "Moneda",
+     "Soles (S/)",
+     "Pesos col. (COP)",
+     "Dólares (US$)",
+     "Nota / fuente"
+    ],
+    "rows": [
+     [
+      "Lima – Colombia, ida y vuelta (avión)",
+      "Ida 05/12/2026, vuelta 15/01/2027, 1 escala",
+      700,
+      "USD",
+      2387,
+      2390500,
+      700,
+      "Captura: Lima–Cartagena US$ 608.35 en total. Se usó tu estimado de US$ 700. Edita el monto."
+     ],
+     [
+      "Bus Cartagena – Cúcuta (obligatorio)",
+      "Copetran, salida 05/12 a la 1:00 PM",
+      150000,
+      "COP",
+      149.78,
+      150000,
+      43.92,
+      "La web suma un cargo de COP 10.500 por asiento (no incluido). Confirma si el precio es solo ida."
+     ],
+     [
+      "Bus Cúcuta – San Cristóbal (frontera)",
+      "Traveling Vip: Cúcuta – San Antonio Terminal",
+      171000,
+      "COP",
+      170.75,
+      171000,
+      50.07,
+      "El carrito dice San Antonio Terminal, no San Cristóbal. Verifica que sea el destino que exige el trámite."
+     ],
+     [
+      "Alojamiento y otros gastos",
+      "Estadía durante el trámite",
+      null,
+      "PEN",
+      0,
+      0,
+      0,
+      "Opcional. Déjalo en blanco si te alojas con un familiar."
+     ],
+     [
+      "SUBTOTAL PASAJES Y GASTOS",
+      null,
+      null,
+      null,
+      2707.53,
+      2711500,
+      794.0,
+      null
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "3. PASAPORTE VENEZOLANO"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Concepto",
+     "Detalle",
+     "Monto original",
+     "Moneda",
+     "Soles (S/)",
+     "Pesos col. (COP)",
+     "Dólares (US$)",
+     "Nota / fuente"
+    ],
+    "rows": [
+     [
+      "Pasaporte adulto (18+ años)",
+      "Pago en línea con tarjeta, al agendar en el Saime",
+      216,
+      "USD",
+      736.56,
+      737640,
+      216,
+      "Infobae (mar 2026). Menores: US$ 162 (informativo, no suma)."
+     ],
+     [
+      "Arancel consular",
+      "En efectivo el día de la cita, en el consulado",
+      120,
+      "USD",
+      409.2,
+      409800,
+      120,
+      "Bloomberg Línea: se acepta dólares o pesos colombianos al cambio del día."
+     ],
+     [
+      "SUBTOTAL PASAPORTE",
+      null,
+      null,
+      null,
+      1145.76,
+      1147440,
+      336,
+      "Plazo de entrega: no confirmado en las fuentes. Pregúntalo en el consulado."
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "4. INVERSIÓN TOTAL ESTIMADA"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Rubro",
+     "",
+     "",
+     "",
+     "Soles (S/)",
+     "Pesos col. (COP)",
+     "Dólares (US$)",
+     "Estado"
+    ],
+    "rows": [
+     [
+      "Servicios de agencia",
+      null,
+      null,
+      null,
+      340,
+      340498.53,
+      99.71,
+      null
+     ],
+     [
+      "Pasajes y gastos de viaje",
+      null,
+      null,
+      null,
+      2707.53,
+      2711500,
+      794.0,
+      "Completo"
+     ],
+     [
+      "Pasaporte venezolano",
+      null,
+      null,
+      null,
+      1145.76,
+      1147440,
+      336,
+      null
+     ],
+     [
+      "TOTAL ESTIMADO",
+      null,
+      null,
+      null,
+      4193.29,
+      4199438.53,
+      1229.7,
+      "Total con todos los rubros"
+     ]
+    ]
+   }
+  ]
+ },
+ "Comparativa": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "COMPARATIVA: TRÁMITES EN PERÚ POR CUENTA PROPIA vs. CON AGENCIA"
+   },
+   {
+    "type": "subtitle",
+    "text": "Montos en soles, pesos colombianos y dólares, con la tasa de la hoja Resumen."
+   },
+   {
+    "type": "section",
+    "text": "1. COMPARATIVA ECONÓMICA"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Concepto",
+     "Por cuenta propia · S/",
+     "Por cuenta propia · COP",
+     "Por cuenta propia · US$",
+     "Con agencia · S/",
+     "Con agencia · COP",
+     "Con agencia · US$",
+     "Diferencia (agencia menos propia) · S/",
+     "Diferencia (agencia menos propia) · COP",
+     "Diferencia (agencia menos propia) · US$",
+     "Comentario"
+    ],
+    "rows": [
+     [
+      "Asesoría inicial",
+      0,
+      0,
+      0,
+      70,
+      70102.64,
+      20.53,
+      70,
+      70102.64,
+      20.53,
+      "Por tu cuenta no la necesitas; esta guía la reemplaza."
+     ],
+     [
+      "Interpol: arancel oficial",
+      31.5,
+      31546.19,
+      9.24,
+      31.5,
+      31546.19,
+      9.24,
+      0,
+      0,
+      0,
+      "Mismo costo en ambos casos."
+     ],
+     [
+      "Interpol: honorarios",
+      0,
+      0,
+      0,
+      83.5,
+      83622.43,
+      24.49,
+      83.5,
+      83622.43,
+      24.49,
+      "Gestión de la cita y carga de datos."
+     ],
+     [
+      "Salvoconducto: arancel oficial",
+      15.2,
+      15222.29,
+      4.46,
+      15.2,
+      15222.29,
+      4.46,
+      0,
+      0,
+      0,
+      "Mismo costo en ambos casos."
+     ],
+     [
+      "Salvoconducto: honorarios",
+      0,
+      0,
+      0,
+      139.8,
+      140004.99,
+      41.0,
+      139.8,
+      140004.99,
+      41.0,
+      "Armado y seguimiento del expediente."
+     ],
+     [
+      "TOTAL",
+      46.7,
+      46768.48,
+      13.7,
+      340,
+      340498.53,
+      99.71,
+      293.3,
+      293730.06,
+      86.01,
+      "El total con agencia debe dar S/ 340.00."
+     ],
+     [
+      "Ahorro por cuenta propia (% del total agencia)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "86.3%",
+      null,
+      null,
+      "Porcentaje del costo total de la agencia que te ahorras."
+     ],
+     [
+      "Ahorro sin contar la asesoría (solo trámites)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      223.3,
+      223627.42,
+      65.48,
+      "Compara el paquete de trámites con los aranceles."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "No cuantificado: transporte a Monterrico (Interpol), impresiones y tu tiempo si lo haces solo.",
+    "red": false
+   },
+   {
+    "type": "section",
+    "text": "2. COMPARATIVA CUALITATIVA"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Criterio",
+     "Por cuenta propia",
+     "",
+     "",
+     "Con agencia",
+     "",
+     "",
+     "Observación",
+     "",
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "Costo",
+      "Solo aranceles",
+      null,
+      null,
+      "Aranceles + honorarios",
+      null,
+      null,
+      "Ver tabla superior.",
+      null,
+      null,
+      null
+     ],
+     [
+      "Cita de Interpol",
+      "La pides tú en el sistema de citas en línea",
+      null,
+      null,
+      "La agencia la gestiona (en Lima, los sábados, según ella)",
+      null,
+      null,
+      "Con agencia, datos y arancel deben estar cargados a más tardar el viernes.",
+      null,
+      null,
+      null
+     ],
+     [
+      "Tiempo de cita",
+      "Depende de la disponibilidad del sistema",
+      null,
+      null,
+      "Estimado de 1 a 3 semanas",
+      null,
+      null,
+      "Con urgencia, la agencia sugiere pedir la cita en provincia.",
+      null,
+      null,
+      null
+     ],
+     [
+      "Salvoconducto",
+      "100% en línea (Agencia Digital de Migraciones)",
+      null,
+      null,
+      "Lo ingresa la agencia junto con Interpol",
+      null,
+      null,
+      "La aprobación final siempre depende de Migraciones Perú.",
+      null,
+      null,
+      null
+     ],
+     [
+      "Presencialidad",
+      "Debes ir tú a Interpol (Monterrico) a recoger la ficha",
+      null,
+      null,
+      "Tú también vas a Interpol; ellos preparan todo",
+      null,
+      null,
+      "La ficha se entrega con biometría y presencia del titular.",
+      null,
+      null,
+      null
+     ],
+     [
+      "Riesgo de observaciones",
+      "Mayor si es tu primera vez",
+      null,
+      null,
+      "Menor: revisan el expediente",
+      null,
+      null,
+      "Las observaciones obligan a subsanar y pueden demorar.",
+      null,
+      null,
+      null
+     ],
+     [
+      "Conviene si...",
+      "Tienes tiempo, margen y comodidad con trámites en línea",
+      null,
+      null,
+      "Tienes poco margen o no quieres errores",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  ]
+ },
+ "Interpol": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "TRÁMITE 1: FICHA DE CANJE INTERNACIONAL (INTERPOL), PERÚ"
+   },
+   {
+    "type": "subtitle",
+    "text": "Documento previo obligatorio para el salvoconducto. Debe tener menos de 6 meses de emitido al presentarlo en Migraciones."
+   },
+   {
+    "type": "section",
+    "text": "DATOS CLAVE"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Campo",
+     "Detalle",
+     "Fuente / enlace"
+    ],
+    "rows": [
+     [
+      "Entidad",
+      "Policía Nacional del Perú: Oficina Central Nacional (OCN) Interpol Lima, sede Monterrico",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "¿Qué es?",
+      "Constancia que acredita si tienes o no orden de captura internacional (notificación roja), previo control de identidad biométrico. Se usa ante Migraciones, embajadas y otras entidades.",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Arancel oficial",
+      "S/ 31.50  |  COP 31,546  |  US$ 9.24",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Código de pago",
+      "Tributo 08141 (Ficha de Canje Internacional), en el Banco de la Nación o en Págalo.pe",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Dónde se atiende",
+      "OCN Interpol Lima, sede Monterrico (Av. Manuel Holguín, cuadra 6, Surco)",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Entrega de la ficha",
+      "Aproximadamente 1 hora después de presentar tus requisitos en la cita",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Tiempo para conseguir cita",
+      "De 1 a 3 semanas, según la agencia; en Lima las citas se piden solo los sábados (dato de la agencia, no verificado en fuente oficial)",
+      "Informado por la agencia"
+     ],
+     [
+      "Vigencia exigida por Migraciones",
+      "Fecha de emisión no mayor a 6 meses para el trámite del salvoconducto",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "REQUISITOS PARA HACERLO POR TU CUENTA"
+   },
+   {
+    "type": "table",
+    "header": [
+     "N°",
+     "Requisito",
+     "Fuente / enlace"
+    ],
+    "rows": [
+     [
+      1,
+      "Pasaporte original",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      2,
+      "Copia simple del pasaporte: hoja de datos (foto) y sello del último ingreso al Perú",
+      {
+       "text": "El Tiempo (2024)",
+       "url": "https://eltiempo.pe/nacional/como-obtener-ficha-de-canje-internacional-en-peru-2024/"
+      }
+     ],
+     [
+      3,
+      "Voucher de pago original y copia del Banco de la Nación (S/ 31.50, código 08141)",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      4,
+      "Constancia de cita impresa",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      5,
+      "Documento de identificación (llévalo junto con la cita impresa)",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "PASO A PASO"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Paso",
+     "Qué hacer",
+     "Enlace / fuente"
+    ],
+    "rows": [
+     [
+      "Paso 1",
+      "Confirma qué documento de identidad aceptan hoy (la página oficial pide pasaporte original; si el tuyo está vencido, consúltalo antes de pagar).",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Paso 2",
+      "Paga S/ 31.50 con el código de tributo 08141 en el Banco de la Nación o en Págalo.pe. Guarda e imprime el voucher.",
+      {
+       "text": "Págalo.pe",
+       "url": "https://pagalo.pe"
+      }
+     ],
+     [
+      "Paso 3",
+      "Entra al sistema de citas en línea de Interpol desde la página oficial, registra los datos del voucher y agenda tu cita. Imprime la constancia.",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Paso 4",
+      "Asiste a la cita en la OCN Interpol Lima (Monterrico) con cita impresa, documento de identidad y copias.",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Paso 5",
+      "Entrega voucher original y copia más los requisitos. En cerca de 1 hora recibes la ficha.",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Paso 6",
+      "Guarda la ficha: la necesitas para el salvoconducto, con menos de 6 meses de emitida.",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "ALERTAS Y COSAS A VERIFICAR"
+   },
+   {
+    "type": "note",
+    "text": "• Fuentes antiguas indican que el sistema exigía agendar la cita el mismo día del pago y no aceptaba vouchers de días anteriores. Verifica la regla vigente.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Las citas son limitadas y pueden tardar semanas. Pide la cita apenas tengas pasajes y fecha definidos.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Si hay urgencia, la agencia sugiere gestionar la cita en una sede de provincia, donde, según ella, se pueden pedir a diario.",
+    "red": true
+   },
+   {
+    "type": "section",
+    "text": "ENLACES ÚTILES"
+   },
+   {
+    "type": "link",
+    "text": "Página oficial de la Ficha de Canje (gob.pe)",
+    "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+   },
+   {
+    "type": "link",
+    "text": "Págalo.pe (pagos en línea)",
+    "url": "https://pagalo.pe"
+   },
+   {
+    "type": "link",
+    "text": "Migraciones Perú",
+    "url": "https://www.migraciones.gob.pe"
+   }
+  ]
+ },
+ "Salvoconducto": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "TRÁMITE 2: SALVOCONDUCTO DE VIAJE PARA EXTRANJEROS (MIGRACIONES PERÚ)"
+   },
+   {
+    "type": "subtitle",
+    "text": "Se solicita en línea. Requiere la Ficha de Canje Interpol ya emitida."
+   },
+   {
+    "type": "section",
+    "text": "DATOS CLAVE"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Campo",
+     "Detalle",
+     "Fuente / enlace"
+    ],
+    "rows": [
+     [
+      "Entidad",
+      "Superintendencia Nacional de Migraciones (Perú)",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Modalidad",
+      "En línea: Agencia Digital de Migraciones > Mesa de Partes Virtual > Nuevo trámite TUPA > Salvoconducto",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Arancel oficial",
+      "S/ 15.20  |  COP 15,222  |  US$ 4.46",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Código de pago",
+      "07570, en el Banco de la Nación o en Págalo.pe",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Vigencia",
+      "30 días hábiles desde la emisión; no se renueva",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Uso",
+      "Para salir del Perú (una sola salida, no autoriza reingreso)",
+      {
+       "text": "Guía de terceros",
+       "url": "https://tramitesperu.com/migraciones/salvoconducto/"
+      }
+     ],
+     [
+      "Condiciones",
+      "Haber ingresado de forma regular y contar con permanencia o residencia vigente",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Itinerario",
+      "El salvoconducto indica el itinerario de viaje; la agencia exige boleto completo hasta Venezuela",
+      {
+       "text": "El Comercio",
+       "url": "https://elcomercio.pe/lima/migraciones-todo-lo-que-debes-saber-del-salvoconducto-de-viaje-para-extranjeros-ultimas-noticia/"
+      }
+     ],
+     [
+      "Plazo de atención",
+      "Agencia: ingresar al menos 20 días antes del vuelo. Cotización: mínimo legal de 7 días hábiles. Guía de terceros: del mismo día a 5 días hábiles tras tener la ficha.",
+      "Agencia / guía de terceros"
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "REQUISITOS PARA HACERLO POR TU CUENTA"
+   },
+   {
+    "type": "table",
+    "header": [
+     "N°",
+     "Requisito",
+     "Fuente / enlace"
+    ],
+    "rows": [
+     [
+      1,
+      "Formulario de solicitud (se completa en la Agencia Digital)",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      2,
+      "Número de recibo y fecha del pago del derecho de trámite (S/ 15.20)",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      3,
+      "Ficha de Canje Internacional emitida por la OCN Interpol Lima, con menos de 6 meses",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      4,
+      "Documento que acredite tu permanencia o residencia vigente en Perú (por ejemplo, carné de extranjería o constancia de permanencia)",
+      {
+       "text": "Guía de terceros",
+       "url": "https://perugestiona.pe/migraciones/salvoconducto-peru/"
+      }
+     ],
+     [
+      5,
+      "Itinerario y boletos de viaje (exigidos por la agencia para aprobar el trámite)",
+      "Informado por la agencia"
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "PASO A PASO"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Paso",
+     "Qué hacer",
+     "Enlace / fuente"
+    ],
+    "rows": [
+     [
+      "Paso 1",
+      "Obtén primero la Ficha de Canje Interpol (hoja Interpol).",
+      {
+       "text": "gob.pe (Mininter)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      }
+     ],
+     [
+      "Paso 2",
+      "Paga S/ 15.20 con el código 07570 en el Banco de la Nación o en Págalo.pe.",
+      {
+       "text": "Págalo.pe",
+       "url": "https://pagalo.pe"
+      }
+     ],
+     [
+      "Paso 3",
+      "Entra a la Agencia Digital de Migraciones y completa el formulario con tus datos para acceder a Mesa de Partes.",
+      {
+       "text": "Agencia Digital de Migraciones",
+       "url": "https://agenciavirtual.migraciones.gob.pe/agencia-virtual/mesa-partes"
+      }
+     ],
+     [
+      "Paso 4",
+      "En Mesa de Partes elige Nuevo trámite TUPA y luego Salvoconducto.",
+      {
+       "text": "Agencia Digital de Migraciones",
+       "url": "https://agenciavirtual.migraciones.gob.pe/agencia-virtual/mesa-partes"
+      }
+     ],
+     [
+      "Paso 5",
+      "Adjunta formulario, recibo de pago, ficha de Interpol, documento de permanencia e itinerario.",
+      {
+       "text": "gob.pe (Salvoconducto)",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      }
+     ],
+     [
+      "Paso 6",
+      "Revisa tu correo y el sistema: si hay observaciones, subsánalas rápido.",
+      {
+       "text": "Guía de terceros",
+       "url": "https://tramitesperu.com/migraciones/salvoconducto/"
+      }
+     ],
+     [
+      "Paso 7",
+      "Una vez aprobado, confirma cómo y dónde se entrega el documento. Una guía de terceros indica sede central de Migraciones, Av. España 734, Breña.",
+      {
+       "text": "Guía de terceros",
+       "url": "https://tramitesperu.com/migraciones/salvoconducto/"
+      }
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "ALERTAS Y COSAS A VERIFICAR"
+   },
+   {
+    "type": "note",
+    "text": "• ELEGIBILIDAD: según gob.pe, el salvoconducto es para extranjeros sin pasaporte o documento de viaje y sin representación consular en Perú. Una guía de terceros advierte que Migraciones puede rechazar la solicitud si tu país tiene consulado en Lima. Pregunta a la agencia cómo se resuelve en tu caso.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• La aprobación final depende de Migraciones. Los plazos de las fuentes difieren: guíate por los 20 días de la asesora.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• El salvoconducto vence a los 30 días hábiles y no se renueva: no lo tramites con demasiada anticipación a tu vuelo.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Confirma con Migraciones o la agencia si el boleto Cúcuta–Venezuela es un requisito formal, ya que no figura en la página oficial.",
+    "red": true
+   },
+   {
+    "type": "section",
+    "text": "ENLACES ÚTILES"
+   },
+   {
+    "type": "link",
+    "text": "Página oficial del Salvoconducto (gob.pe)",
+    "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+   },
+   {
+    "type": "link",
+    "text": "Agencia Digital de Migraciones (Mesa de Partes)",
+    "url": "https://agenciavirtual.migraciones.gob.pe/agencia-virtual/mesa-partes"
+   },
+   {
+    "type": "link",
+    "text": "Págalo.pe",
+    "url": "https://pagalo.pe"
+   },
+   {
+    "type": "link",
+    "text": "Migraciones Perú",
+    "url": "https://www.migraciones.gob.pe"
+   }
+  ]
+ },
+ "Pasaporte_VE": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "TRÁMITE 3: PASAPORTE VENEZOLANO EN COLOMBIA (SAIME)"
+   },
+   {
+    "type": "subtitle",
+    "text": "Cita y pago en línea por el portal del Saime; atención en el consulado venezolano que elijas."
+   },
+   {
+    "type": "section",
+    "text": "DATOS CLAVE"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Campo",
+     "Detalle",
+     "Fuente / enlace"
+    ],
+    "rows": [
+     [
+      "Entidad",
+      "Saime (Servicio Administrativo de Identificación, Migración y Extranjería) a través de consulados venezolanos",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Costo adulto (18+)",
+      "S/ 736.56  |  COP 737,640  |  US$ 216.00",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Costo menor (3 a 17 años)",
+      "S/ 552.42  |  COP 553,230  |  US$ 162.00 en línea. Confirma con el consulado si aplica el arancel de US$ 120 para menores.",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Arancel consular (adultos)",
+      "S/ 409.20  |  COP 409,800  |  US$ 120.00",
+      {
+       "text": "Bloomberg Línea (Colombia)",
+       "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/sacar-el-pasaporte-venezolano-en-colombia-primera-vez-y-renovacion-paso-a-paso/"
+      }
+     ],
+     [
+      "Forma de pago",
+      "US$ 216 en línea con tarjeta de crédito o débito (venezolana, internacional o colombiana) al agendar; US$ 120 en efectivo el día de la cita",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Consulados habilitados",
+      "Bogotá, Cúcuta, Barranquilla, Cartagena, Medellín y Riohacha",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Portal para la cita",
+      "saime.gob.ve > Pasaporte en el exterior. Otra fuente indica el portal siic.saime.gob.ve",
+      {
+       "text": "Saime",
+       "url": "https://www.saime.gob.ve"
+      }
+     ],
+     [
+      "Tu link de cita",
+      "Pega aquí el link que te dieron (no llegó en tu mensaje)",
+      "Dato pendiente"
+     ],
+     [
+      "Plazo de entrega",
+      "No hay un plazo oficial confiable en las fuentes consultadas. Pregúntalo al agendar o en el consulado.",
+      "Por verificar"
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "REQUISITOS PARA HACERLO POR TU CUENTA"
+   },
+   {
+    "type": "table",
+    "header": [
+     "N°",
+     "Requisito",
+     "Fuente / enlace"
+    ],
+    "rows": [
+     [
+      1,
+      "Planilla de solicitud enviada a tu correo, original y copia (Infobae indica formulario impreso y firmado con declaración jurada)",
+      {
+       "text": "Bloomberg Línea (Colombia)",
+       "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/sacar-el-pasaporte-venezolano-en-colombia-primera-vez-y-renovacion-paso-a-paso/"
+      }
+     ],
+     [
+      2,
+      "US$ 120 en efectivo para el arancel consular (dólares o pesos colombianos al cambio del día)",
+      {
+       "text": "Bloomberg Línea (Colombia)",
+       "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/sacar-el-pasaporte-venezolano-en-colombia-primera-vez-y-renovacion-paso-a-paso/"
+      }
+     ],
+     [
+      3,
+      "Partida de nacimiento actualizada",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      4,
+      "Cédula de identidad venezolana, original y copia (si no la tienes, repón la cédula antes)",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      5,
+      "Comprobante del pago en línea",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      6,
+      "Para menores: también la partida de nacimiento del niño o niña",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "PASO A PASO"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Paso",
+     "Qué hacer",
+     "Enlace / fuente"
+    ],
+    "rows": [
+     [
+      "Paso 1",
+      "Entra al portal del Saime y elige Pasaporte en el exterior.",
+      {
+       "text": "Saime",
+       "url": "https://www.saime.gob.ve"
+      }
+     ],
+     [
+      "Paso 2",
+      "Crea tu cuenta con tu cédula y correo, o inicia sesión si ya la tienes.",
+      {
+       "text": "Saime SIIC",
+       "url": "https://siic.saime.gob.ve/"
+      }
+     ],
+     [
+      "Paso 3",
+      "Completa el formulario de cita y elige el consulado en Colombia.",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Paso 4",
+      "Paga en línea con tarjeta y guarda el comprobante.",
+      {
+       "text": "Infobae (mar 2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      }
+     ],
+     [
+      "Paso 5",
+      "Descarga, imprime y firma el formulario de solicitud.",
+      {
+       "text": "Saime",
+       "url": "https://www.saime.gob.ve"
+      }
+     ],
+     [
+      "Paso 6",
+      "Asiste al consulado el día y hora asignados con todos los documentos, originales y copias, y paga los US$ 120 en efectivo. Ahí te toman foto, huellas y firma.",
+      {
+       "text": "Bloomberg Línea (Colombia)",
+       "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/sacar-el-pasaporte-venezolano-en-colombia-primera-vez-y-renovacion-paso-a-paso/"
+      }
+     ],
+     [
+      "Paso 7",
+      "Retira tu pasaporte cuando el consulado lo indique y lleva tu comprobante y documento de identidad. Confirma el plazo de entrega.",
+      "Por verificar con el consulado"
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "ALERTAS Y COSAS A VERIFICAR"
+   },
+   {
+    "type": "note",
+    "text": "• Los portales y requisitos del Saime cambian con frecuencia. Verifica todo en el sitio oficial antes de pagar.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Antes de viajar, revisa los requisitos de ingreso a Colombia para tu documento de viaje en Migración Colombia (incluye formularios de registro de viajeros, si aplican).",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "• Otras fuentes de 2024 mencionan US$ 200 más comisión bancaria (total US$ 216) y el mismo arancel de US$ 120. Confirma los montos en el portal.",
+    "red": true
+   },
+   {
+    "type": "section",
+    "text": "ENLACES ÚTILES"
+   },
+   {
+    "type": "link",
+    "text": "Portal del Saime",
+    "url": "https://www.saime.gob.ve"
+   },
+   {
+    "type": "link",
+    "text": "Saime SIIC (alternativo)",
+    "url": "https://siic.saime.gob.ve/"
+   },
+   {
+    "type": "link",
+    "text": "Guía Infobae 2026 (costos y requisitos)",
+    "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+   },
+   {
+    "type": "link",
+    "text": "Bloomberg Línea: pasaporte venezolano en Colombia",
+    "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/sacar-el-pasaporte-venezolano-en-colombia-primera-vez-y-renovacion-paso-a-paso/"
+   },
+   {
+    "type": "link",
+    "text": "Migración Colombia",
+    "url": "https://www.migracioncolombia.gov.co"
+   }
+  ]
+ },
+ "Checklist": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "CHECKLIST DE VIAJE, PAGOS Y REQUISITOS"
+   },
+   {
+    "type": "subtitle",
+    "text": "Cambia la columna Estado con el menú desplegable. El avance se calcula solo."
+   },
+   {
+    "type": "table",
+    "header": [
+     "N°",
+     "Etapa",
+     "Ítem",
+     "Dónde / quién",
+     "Estado",
+     "Notas"
+    ],
+    "rows": [
+     [
+      1,
+      "Preparación",
+      "Pago de S/ 70 y comprobante enviado a la agencia",
+      "Agencia",
+      "Pendiente",
+      null
+     ],
+     [
+      2,
+      "Preparación",
+      "Hora elegida para la asesoría (martes, Los Olivos)",
+      "Agencia",
+      "Pendiente",
+      null
+     ],
+     [
+      3,
+      "Preparación",
+      "Asesoría realizada: llevar dudas de esta guía",
+      "Los Olivos",
+      "Pendiente",
+      null
+     ],
+     [
+      4,
+      "Pasajes",
+      "Vuelo Lima–Cartagena/Bogotá ida y vuelta comprado (revisar cambios de fecha)",
+      "Aerolínea",
+      "Pendiente",
+      null
+     ],
+     [
+      5,
+      "Pasajes",
+      "Bus Cartagena–Cúcuta comprado (obligatorio para el trámite)",
+      "Transporte terrestre",
+      "Pendiente",
+      null
+     ],
+     [
+      6,
+      "Pasajes",
+      "Bus Cúcuta–San Cristóbal/frontera comprado (Traveling Vip); verificar el destino",
+      "Traveling Vip",
+      "Pendiente",
+      null
+     ],
+     [
+      7,
+      "Pasajes",
+      "Confirmado con la agencia qué boletos exige y si Cúcuta–Venezuela sigue siendo necesario",
+      "Agencia / Migraciones",
+      "Pendiente",
+      null
+     ],
+     [
+      8,
+      "Interpol",
+      "Documento de identidad aceptado por Interpol confirmado",
+      "Interpol Lima",
+      "Pendiente",
+      null
+     ],
+     [
+      9,
+      "Interpol",
+      "Pasaporte original y copia (hoja de datos y último sello de ingreso)",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      10,
+      "Interpol",
+      "Arancel S/ 31.50 pagado (código 08141) y voucher impreso (original y copia)",
+      "Banco de la Nación / Págalo.pe",
+      "Pendiente",
+      null
+     ],
+     [
+      11,
+      "Interpol",
+      "Cita agendada y constancia impresa",
+      "Sistema de citas Interpol",
+      "Pendiente",
+      null
+     ],
+     [
+      12,
+      "Interpol",
+      "Ficha de Canje obtenida (vigencia menor a 6 meses al presentarla)",
+      "Interpol Monterrico",
+      "Pendiente",
+      null
+     ],
+     [
+      13,
+      "Salvoconducto",
+      "Arancel S/ 15.20 pagado (código 07570); número de recibo y fecha anotados",
+      "Banco de la Nación / Págalo.pe",
+      "Pendiente",
+      null
+     ],
+     [
+      14,
+      "Salvoconducto",
+      "Formulario completado en la Agencia Digital de Migraciones",
+      "Agencia Digital",
+      "Pendiente",
+      null
+     ],
+     [
+      15,
+      "Salvoconducto",
+      "Documento de permanencia o residencia vigente adjunto",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      16,
+      "Salvoconducto",
+      "Solicitud ingresada al menos 20 días antes del vuelo",
+      "Agencia Digital",
+      "Pendiente",
+      null
+     ],
+     [
+      17,
+      "Salvoconducto",
+      "Salvoconducto aprobado, entregado e impreso",
+      "Migraciones",
+      "Pendiente",
+      null
+     ],
+     [
+      18,
+      "Viaje",
+      "Boletos, salvoconducto y documentos impresos en una carpeta",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      19,
+      "Viaje",
+      "Requisitos de ingreso a Colombia revisados",
+      "Migración Colombia",
+      "Pendiente",
+      null
+     ],
+     [
+      20,
+      "Pasaporte venezolano",
+      "Cuenta creada en el portal del Saime",
+      "Saime",
+      "Pendiente",
+      null
+     ],
+     [
+      21,
+      "Pasaporte venezolano",
+      "Cita agendada y consulado elegido",
+      "Saime",
+      "Pendiente",
+      null
+     ],
+     [
+      22,
+      "Pasaporte venezolano",
+      "Pago en línea realizado (US$ 216 adulto) y comprobante guardado",
+      "Saime",
+      "Pendiente",
+      null
+     ],
+     [
+      23,
+      "Pasaporte venezolano",
+      "US$ 120 en efectivo listos para el arancel consular (dólares o pesos al cambio del día)",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      24,
+      "Pasaporte venezolano",
+      "Planilla de la cita, original y copia (llega al correo)",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      25,
+      "Pasaporte venezolano",
+      "Partida de nacimiento actualizada",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      26,
+      "Pasaporte venezolano",
+      "Cédula venezolana, original y copia",
+      "Tú",
+      "Pendiente",
+      null
+     ],
+     [
+      27,
+      "Pasaporte venezolano",
+      "Pasaporte retirado en el consulado (confirmar plazo de entrega)",
+      "Consulado venezolano",
+      "Pendiente",
+      null
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "header": null,
+    "rows": [
+     [
+      null,
+      null,
+      "Ítems completados",
+      null,
+      0,
+      null
+     ],
+     [
+      null,
+      null,
+      "Total de ítems",
+      null,
+      27,
+      null
+     ],
+     [
+      null,
+      null,
+      "Avance",
+      null,
+      "0.0%",
+      null
+     ]
+    ]
+   }
+  ]
+ },
+ "Cronograma": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "CRONOGRAMA: FECHAS LÍMITE A PARTIR DE TU FECHA DE VUELO"
+   },
+   {
+    "type": "subtitle",
+    "text": "Cambia la celda amarilla con tu fecha de vuelo y se recalculan los plazos."
+   },
+   {
+    "type": "table",
+    "header": null,
+    "rows": [
+     [
+      "Fecha de vuelo de ida",
+      "05/12/2026",
+      "Tomada de tu captura (sáb 05/12/2026). Se asumen los plazos informados por la agencia."
+     ],
+     [
+      "Fecha de hoy",
+      "22/11/2026",
+      "Se actualiza sola al abrir el archivo."
+     ],
+     [
+      "Días disponibles hasta el vuelo",
+      13,
+      "Margen ajustado: la suma de peores casos es 41 días. Considera mover el vuelo."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Supuestos de plazo (días)",
+    "red": false
+   },
+   {
+    "type": "table",
+    "header": null,
+    "rows": [
+     [
+      "Anticipación recomendada del salvoconducto",
+      20,
+      "Recomendación de la asesora de la agencia."
+     ],
+     [
+      "Espera máxima de la cita de Interpol",
+      21,
+      "Peor caso de 1 a 3 semanas, según la agencia."
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "FECHAS CALCULADAS (cada una es la fecha límite)"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Hito",
+     "Fecha límite",
+     "Explicación"
+    ],
+    "rows": [
+     [
+      "Pasajes comprados",
+      "23/10/2026",
+      "Deben estar comprados antes de cargar los datos y pagar el arancel de Interpol."
+     ],
+     [
+      "Pagar arancel Interpol y cargar datos (viernes)",
+      "23/10/2026",
+      "Viernes previo al sábado de la cita: arancel pagado y datos cargados (regla de la agencia)."
+     ],
+     [
+      "Pedir la cita de Interpol (último sábado)",
+      "24/10/2026",
+      "Último sábado que deja cubierto el peor caso de espera (21 días) antes de ingresar el salvoconducto."
+     ],
+     [
+      "Tener la Ficha de Canje en mano",
+      "15/11/2026",
+      "Se necesita para ingresar el salvoconducto."
+     ],
+     [
+      "Ingresar el salvoconducto",
+      "15/11/2026",
+      "Recomendación de la asesora: al menos 20 días antes del vuelo."
+     ],
+     [
+      "Margen mínimo legal citado en la cotización",
+      "26/11/2026",
+      "7 días hábiles antes del vuelo: es el límite extremo, no lo uses de objetivo."
+     ],
+     [
+      "Vuelo de ida",
+      "05/12/2026",
+      "Recuerda: el salvoconducto vence a los 30 días hábiles de emitido."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Las fechas en rojo ya pasaron respecto de hoy: con esa fecha de vuelo no se cumplen los plazos.",
+    "red": true
+   },
+   {
+    "type": "note",
+    "text": "Nota: el cronograma es una guía basada en los plazos de la agencia; Migraciones y Interpol pueden variar.",
+    "red": false
+   }
+  ]
+ },
+ "Fuentes": {
+  "blocks": [
+   {
+    "type": "title",
+    "text": "FUENTES, ENLACES Y DATOS POR VERIFICAR"
+   },
+   {
+    "type": "subtitle",
+    "text": "Consultado el 22/11/2026. Verifica siempre en la fuente oficial antes de pagar."
+   },
+   {
+    "type": "table",
+    "header": [
+     "Fuente",
+     "Tipo",
+     "Qué se tomó de ella"
+    ],
+    "rows": [
+     [
+      {
+       "text": "gob.pe: Ficha de Canje Internacional (Interpol)",
+       "url": "https://www.gob.pe/institucion/mininter/pages/7307-obtener-ficha-de-canje-internacional-interpol"
+      },
+      "Oficial",
+      "Requisitos, arancel S/ 31.50, código 08141, sede Monterrico, entrega aprox. 1 hora."
+     ],
+     [
+      {
+       "text": "gob.pe: Salvoconducto de viaje para extranjeros",
+       "url": "https://www.gob.pe/12616-solicitar-expedicion-de-salvoconducto-de-viaje-para-extranjeros"
+      },
+      "Oficial",
+      "Arancel S/ 15.20, código 07570, vigencia 30 días hábiles, requisitos y condiciones."
+     ],
+     [
+      {
+       "text": "Agencia Digital de Migraciones (Mesa de Partes)",
+       "url": "https://agenciavirtual.migraciones.gob.pe/agencia-virtual/mesa-partes"
+      },
+      "Oficial",
+      "Canal en línea para ingresar el salvoconducto."
+     ],
+     [
+      {
+       "text": "Págalo.pe",
+       "url": "https://pagalo.pe"
+      },
+      "Oficial",
+      "Plataforma de pago en línea de aranceles."
+     ],
+     [
+      {
+       "text": "Saime (Venezuela)",
+       "url": "https://www.saime.gob.ve"
+      },
+      "Oficial",
+      "Portal de pasaporte en el exterior."
+     ],
+     [
+      {
+       "text": "Saime SIIC",
+       "url": "https://siic.saime.gob.ve/"
+      },
+      "Referencia",
+      "Portal alternativo mencionado para crear cuenta y pedir cita."
+     ],
+     [
+      {
+       "text": "Infobae Colombia (06/03/2026)",
+       "url": "https://www.infobae.com/colombia/2026/03/06/todo-lo-que-necesita-saber-sobre-como-sacar-el-pasaporte-venezolano-en-colombia-2026-costos-requisitos-y-pasos-a-seguir/"
+      },
+      "Prensa",
+      "Costos 2026 (US$ 216 adulto, US$ 162 menor), consulados, requisitos y pasos."
+     ],
+     [
+      {
+       "text": "Bloomberg Línea: pasaporte venezolano en Colombia",
+       "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/sacar-el-pasaporte-venezolano-en-colombia-primera-vez-y-renovacion-paso-a-paso/"
+      },
+      "Prensa",
+      "Arancel consular de US$ 120 en efectivo el día de la cita; documentos para la cita."
+     ],
+     [
+      {
+       "text": "Infobae Colombia (08/03/2024)",
+       "url": "https://www.infobae.com/colombia/2024/03/08/estos-son-los-pasos-para-renovar-el-pasaporte-venezolano-en-colombia/"
+      },
+      "Prensa",
+      "Pasos y costo de US$ 216 vigente en 2024 (contraste)."
+     ],
+     [
+      {
+       "text": "El Tiempo (2024)",
+       "url": "https://eltiempo.pe/nacional/como-obtener-ficha-de-canje-internacional-en-peru-2024/"
+      },
+      "Prensa",
+      "Copia del pasaporte y sello de ingreso para la ficha de Interpol."
+     ],
+     [
+      {
+       "text": "El Comercio",
+       "url": "https://elcomercio.pe/lima/migraciones-todo-lo-que-debes-saber-del-salvoconducto-de-viaje-para-extranjeros-ultimas-noticia/"
+      },
+      "Prensa",
+      "El salvoconducto especifica el itinerario de viaje."
+     ],
+     [
+      {
+       "text": "Trámites Perú",
+       "url": "https://tramitesperu.com/migraciones/salvoconducto/"
+      },
+      "Guía de terceros",
+      "Detalle operativo del salvoconducto (no oficial; verificar)."
+     ],
+     [
+      {
+       "text": "Perú Gestiona",
+       "url": "https://perugestiona.pe/migraciones/salvoconducto-peru/"
+      },
+      "Guía de terceros",
+      "Advertencia sobre elegibilidad y documentos (no oficial; verificar)."
+     ],
+     [
+      {
+       "text": "Traveling Vip",
+       "url": "https://travelingvip365.com"
+      },
+      "Comercio",
+      "Pasaje Cúcuta – San Antonio Terminal (COP 171.000, según tu captura)."
+     ],
+     [
+      {
+       "text": "TuCambista (SUNAT/SBS)",
+       "url": "https://tucambista.pe/noticias/dolares-a-soles-18-de-noviembre-2026"
+      },
+      "Prensa",
+      "Tipo de cambio en Perú usado como último valor verificado: S/ 3.41 por US$ (18/11/2026)."
+     ],
+     [
+      {
+       "text": "Noticias Caracol (TRM)",
+       "url": "https://www.noticiascaracol.com/economia/precio-del-dolar-en-colombia-hoy-20-de-noviembre-de-2026-trm-ya-supera-los-3-400-so35"
+      },
+      "Prensa",
+      "TRM de Colombia usada como último valor verificado: COP 3.415 por US$ (20/11/2026)."
+     ],
+     [
+      {
+       "text": "Migración Colombia",
+       "url": "https://www.migracioncolombia.gov.co"
+      },
+      "Oficial",
+      "Revisar requisitos de ingreso a Colombia."
+     ]
+    ]
+   },
+   {
+    "type": "section",
+    "text": "DATOS INFORMADOS POR LA AGENCIA (no verificados en fuente oficial)"
+   },
+   {
+    "type": "note",
+    "text": "• Asesoría S/ 70; paquete Interpol + Salvoconducto S/ 270; total S/ 340.",
+    "red": false
+   },
+   {
+    "type": "note",
+    "text": "• Boleto completo Lima–Cúcuta y Cúcuta–Venezuela exigido por Migraciones para aprobar el salvoconducto.",
+    "red": false
+   },
+   {
+    "type": "note",
+    "text": "• Citas de Interpol en Lima solo los sábados; datos y arancel cargados a más tardar el viernes; espera de 1 a 3 semanas.",
+    "red": false
+   },
+   {
+    "type": "note",
+    "text": "• Ingresar el salvoconducto al menos 20 días antes del vuelo (margen legal citado: 7 días hábiles).",
+    "red": false
+   }
+  ]
+ }
+}
