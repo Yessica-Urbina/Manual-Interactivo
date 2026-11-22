@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Teléfonos: la app abre con zoom al 57 %. Cambia MOBILE_ZOOM para ajustarlo (se puede seguir haciendo zoom con los dedos).
+      (function () {
+        var MOBILE_ZOOM = 0.57;
+        if (Math.min(screen.width, screen.height) <= 768) {
+          document.querySelector('meta[name=viewport]').setAttribute('content',
+            'width=device-width, initial-scale=' + MOBILE_ZOOM + ', minimum-scale=0.3, maximum-scale=5, user-scalable=yes');
+        }
+      })();
+    </script>
     <title>Manual Trámites</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />

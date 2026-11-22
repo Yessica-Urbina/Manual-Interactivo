@@ -1,4 +1,4 @@
-import { BookOpen, Calendar, CheckSquare, FileText, Globe, LayoutGrid, Map as MapIcon } from 'lucide-react';
+import { BookOpen, Calendar, CheckSquare, FileText, Globe, LayoutGrid, Map as MapIcon, Workflow } from 'lucide-react';
 
 export const NAV = [
   { group: 'Inicio', items: [{ id: 'panel', label: 'Panel Principal', icon: LayoutGrid }] },
@@ -9,6 +9,7 @@ export const NAV = [
     { id: 'comparativa', label: 'Agencia vs Propia', icon: FileText },
   ] },
   { group: 'Trámites', items: [
+    { id: 'flujo', label: 'Diagrama de Flujo', icon: Workflow },
     { id: 'interpol', label: 'Guía: Interpol', icon: BookOpen },
     { id: 'salvoconducto', label: 'Guía: Salvoconducto', icon: BookOpen },
     { id: 'pasaporte', label: 'Guía: Pasaporte VE', icon: BookOpen },
